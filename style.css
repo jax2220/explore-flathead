@@ -10,39 +10,31 @@ body{
 .banner{
   position: absolute;
   width: 100%;
-  height: 140px;
+  height: 120px;
   padding-top: 30px;
-  background-color: #B7D5F0;
+  background-color: #2B8EE7;
   z-index: 1;
 }
 
-
-.logo-container{
-  text-align: center;
-  background-color: #497BDB;
-  width: 210px;
-  height:120px;
-  margin-left: 30px;
-}
-.logo{
-  position: relative;
-  top: 30px;
-  font-size: 60px;
-  color: black;
+img{
+  position: absolute;
+  top: -40px;
   display: inline-block;
+  width: 290px;
+  height: 230px;
+  overflow: hidden;
 }
-
 .menu{
-  decoration: none;
   display: inline-block;
   position: absolute;
-  top: 30px;
-  right: 5px;
+  top: 85px;
+  right:30px;
 }
 
 .menu a{
   text-decoration: none;
   font-size: 30px;
   color: black;
-  word-spacing: 30px;
+  padding:20px;
+
 }
